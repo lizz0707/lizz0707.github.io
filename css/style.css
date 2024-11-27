@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Anonymus-bold;
+  src: url(../fonts/AnonymousPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: EBGramond-bold;
+  src: url(../fonts/EBGaramond-Bold.ttf);
+}
+
+@font-face {
+  font-family: Anonymus-regular;
+  src: url(../fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+  background-color: #ffe7f7;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  background-color: #ffe7f7;
+}
+
+.strok {
+  width: 1180px;
+  height: 95px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_photo {
+  width: 90px;
+}
+
+.nav {
+  width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Anonymus-bold;
+  /* margin-left: 45px; */
+}
+
+.nav_ul {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.nav__ul_li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #c5267b;
+  font-size: 25px;
+}
+
+.photo_we {
+  width: 52px;
+  height: 52px;
+  margin-right: 45px;
+}
+
+.welcome {
+  height: 810px;
+}
+
+.welkome__h {
+  position: relative;
+  font-size: 70px;
+  top: 150px;
+  left: 40px;
+  color: #c5267b;
+}
+
+.glava {
+  position: relative;
+  top: -130px;
+  left: 380px;
+  margin-top: 0px;
+}
+
+.blok1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.patrik {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  text-decoration-line: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 4px;
+  color: #c5267b;
+  font-size: 70px;
+  margin-top: 60px;
+}
+
+.patrakova_img {
+  width: 660px;
+  height: 632px;
+}
+
+.patrakova_text {
+  font-family: Anonymus-regular;
+  font-size: 33px;
+  width: 550px;
+  padding: 20px 0;
+  line-height: 120%;
+}
+
+.text__name {
+  font-family: Anonymus-bold;
+  color: #c5267b;
+}
+
+.site_name {
+  font-family: Anonymus-bold;
+  color: #c5267b;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.proect__text {
+  font-family: Anonymus-regular;
+  font-size: 30px;
+  margin: 30px 0;
+  line-height: 120%;
+}
+
+.proect__photo {
+  width: 1080px;
+  height: 555px;
+  align-items: center;
+}
+
+.photo_pro {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #ffbcea;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 60px;
+}
+
+.container_footer {
+  width: 1180px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.con_adres {
+  display: flex;
+}
+
+.contact {
+  padding: 0 40px;
+}
+
+.contact_info {
+  margin: 15px 0 0 0;
+}
+
+.contact__text {
+  font-family: Anonymus-regular;
+  color: #c5267b;
+  font-size: 30px;
+  text-decoration-line: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 2px;
+  margin-bottom: 20px;
+}
+
+.num {
+  font-family: Anonymus-regular;
+  font-size: 18px;
+}
+
+.logo_name {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 40px;
+}
+
+.logo {
+  font-family: Anonymus-regular;
+  color: #c5267b;
+  font-size: 24px;
+  text-decoration-line: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 2px;
+  margin-bottom: 20px;
+}
